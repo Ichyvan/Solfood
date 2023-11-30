@@ -3,7 +3,7 @@ import json
 from IPython.display import display, Image
 
 # # OpenAI API 키
-with open('/Users/changhyun/Desktop/Solfood/secrets.json') as f:
+with open('C:\Users\이창현\Desktop\Amplify\app\secrets.json') as f:
     secrets = json.load(f)
     SECRET_KEY = secrets['Secret_key']
 
